@@ -1,0 +1,56 @@
+*{
+    
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+header{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 200px;
+    font-size: 20px;
+    
+   
+}
+
+
+main{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+    justify-content: center;
+    
+    
+    
+}
+
+
+.grid{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+   
+
+  
+    
+}
+
+.grid div{
+    width: 100px;
+    height: 100px;
+}
+
+.snake{
+    background-color: black;
+}
+
+.apple{
+    background-color: red;
+}
+
+.badApple{
+    background-color:darkgreen;
+}
